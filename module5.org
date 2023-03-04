@@ -1,0 +1,48 @@
+* Defense in depth
+* Disabling unnecessary components
+** Attack vectors
+** Attack surfaces
+* Host-based firewalls
+Bastion hosts
+* Logging and auditing
+Security information and event management systems (SIEMS)
+Normalization
+Rsyslog
+Splunk enterprise security
+IBM security qradar
+RSA security analytics
+* Antimalware protection
+Antivirus software
+Binary whitelisting software, code signing certificates
+* Disk encryption
+Full-disk encryption (FDE)
+Secure boot, platform key
+Key escrow
+Home directory or file-based encryption
+* Software patch management
+Good system and policy
+Microsoft SCCM
+* Application policies
+* Security goals
+** PCI DSS
+* Measuring and accessing risk
+Thread modeling
+Vulnerability scanning
+Penetration testing
+* Privacy policy
+Least privilege
+High-priority potential breach
+Data-handling policies
+* User habits
+Unsafe security
+Credential thief
+* Third-party security
+* Security training
+* Incident reporting and analysis
+Data exfiltration
+Recovability
+* Incident response and recovery
+Forensic analysis
+Postmortems
+* Mobile secuity and privacy
+Screen lock

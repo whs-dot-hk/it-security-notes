@@ -1,0 +1,57 @@
+* Network hardening
+** Implicit deny
+** Whitelisting
+** Network traffic monitoring 
+** Analyzing logs
+** Logs analysis system
+** Normalizing log data
+** Correlation analysis
+Post fail analysis
+** Splunk
+** Flood guards
+Fail2ban
+** Network seperation
+Network segmentation
+* Network hardware hardening
+** DHCP
+Rouge DHCP server attack
+DHCP spoofing
+** Dynamic ARP inspection (DAI)
+Gratuitous ARP response
+ARP scanning
+** IP source guard (IPSG)
+** 802.1X
+EAP - extensible authentication protocol
+** EAP-TLS
+* Network software hardening
+** Firewalls
+Host-based
+Network-based
+** VPN
+** Proxies
+Reverse proxy
+* WEP encryption
+Wired equivalent privacy
+RC4
+Open system authentication
+Shared key authentication
+* WPA
+Temporal key integrity protocol (TKIP)
+Pre-shared key
+PBKDF2 - password-based key derivation function 2
+** WPS
+PIN entry authentication
+NFC or USB
+Push-button authentication
+* WPA2
+CCMP - counter mode CBC-MAC protocol
+* Wireless hardening
+* Packet sniffing
+Promiscuous mode
+Port mirroring
+Hub
+Monitor mode, wireless
+* Tcpdump
+* Wireshark
+* Intrusion detection and prevention systems (IDS/IPS)
+* Network intrusion detection system (NIDS)

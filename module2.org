@@ -1,0 +1,149 @@
+* Cryptography
+Encryption
+Cipher
+Cipher text
+Decryption
+Key
+Security through obscurity
+Kerckhoffs's principle
+Cryptosystem
+Shannon's maxim
+Cryptology
+Cryptanalysis
+Frequency analysis
+Colossus
+Steganography
+* Symmetric cryptography
+Substitution cipher
+Caesar cipher
+ROT13
+Block ciphers
+Stream ciphers
+Key reuse
+Initialization vector (IV)
+* Symmetric encryption algorithms
+** Data encryption standard (DES)
+Symmetric block cipher
+64-bit key, 8-bit parity checking, 56-bit
+64-bit blocks
+** FIPS
+** Key length
+** Brute force attack
+** Advanced encryption standard (AES)
+National institute of standards and techonlogy (NIST)
+128-bits blocks
+128-bit, 192-bit or 256-bit key
+** AES instructions
+** RC4
+** TLS 1.2
+AES GCM
+Galois/counter mode
+Seed value
+* Asymmetric cryptography
+Public key
+Private key
+Public key cryptography
+Publis key signatures
+Confidentiality
+Authenticity
+Non-repudiation
+* Symmetric cryptography
+** Message authentication code (MAC)
+** HMAC - keyed-hash message authentication code
+** CMAC - cipher-based message authentication code
+CBC-MAC - cipher block chaining message authentication code
+* Asymmetric encryption algorithms
+** RSA
+** DSA - digital signature algorithm
+** DH - diffie-hellman
+Key exchange algorithm
+** Public key infrastructure system
+PKI system
+** Elliptic curve cryptography (ECC)
+** ECDH
+** ECDSA
+* Hashing
+Hash value
+Hash table
+One-directional
+Deterministic
+Hash collision
+* Hashing algorithms
+** MD5
+512-bit blocks
+128-bit hash digest
+** SHA1 - secure hash algorithm
+512-bit blocks
+160-bit hash digest
+TLS/SSl
+PGP SSH
+IPsec
+Git
+** MIC - message integrity check
+** Rainbow table
+** Password salt
+* Public key infrastructure
+** CA - certificate authority
+** RA - registration authority
+** SSL/TLS certificate
+Wildcard certificate
+Self-signed certificate
+** SSL/TLS client certificate
+** Code signing certificate
+** Chain of trust
+Root certificate authority
+Intermediate CAs
+** End-entity or leaf certificate
+* Certificates
+** X.509 standard
+Version
+Serial number
+Certificate signature algorithm
+Issuer name
+Validity, not before, not after
+Subject
+Subject public key info
+Certificate signature algorithm
+Certificate signature value
+** Certifcate revocation list (CRL)
+** Certificate fingerprint
+** Web of trust
+Key signing party
+* Cryptography in action
+** HTTPS
+** TLS
+** TLS handshake
+ClientHello
+ServerHello, Certificate, ServerHelloDone
+ClientKeyExchange, ChangeCipherSpec, Finished
+ChangeCipherSpec, Finished
+** Session key
+** Forward secrecy
+** Secure shell (SSH)
+** Preety good privacy (PGP)
+DSA
+* Securing network traffic
+** VPN
+IPsec - internet protocol security
+L2TP - layer two tunneling protocol
+L2TP IPsec
+** Tunnel
+** Secure channel
+** OpenVPN
+1194
+* Cryptographic hardware
+** Trusted platform module (TPM)
+Secure generation of keys
+Random number generation
+Remote attestation
+Data binding and sealing
+** Secure element
+Tamper resistant chip
+** Trusted execution environment (TEE)
+** Full disk encryption (FDE)
+PGP
+Bitlocker
+Filevault 2
+dm-crypt
+** Random
+Pseudorandom

@@ -1,0 +1,34 @@
+* Authentication
+** Identification
+** Authn - authentication
+** Authz - authorization
+** Usability
+Trade-off
+** Password policy
+Length requirements
+Character complexity
+Dictionary words
+* Multifactor authentication
+Something you know
+Something you have
+Something you are
+** Onetime password (OTP)
+RSA SecureID token
+TOTP, time-based token, NTP
+Counter-based token
+SMS
+* Multifactor authentications options
+Biometric authentication
+U2F - universal second factor, security key
+* Client certificates
+* Remote authentication dial-in user service (RADIUS)
+* Kerberos
+Ticket granting ticket
+* TACACS+ - terminal access controller access-control system plus
+Device access AAA system
+* Single sign-on SSO
+* Authorization and access control method
+* Access control
+OAuth
+* Access control list (ACL)
+* Accounting
